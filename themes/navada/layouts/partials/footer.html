@@ -1,0 +1,16 @@
+<footer id="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            {{ range .Site.Menus.footer }}
+            <div class="column is-narrow">
+                <a href="{{ .URL }}" class="footer-link">{{ .Name }}</a>
+            </div>
+            {{ end }}
+        </div>
+        <div class="column has-text-centered">
+        <p>Made with 	&hearts;</p>
+        <p>Powered By <a href="">Hugo</a></p>
+        <p>&copy;2021 <a href="">Navada</a> Theme</p>
+        </div>
+    </div>
+</footer>

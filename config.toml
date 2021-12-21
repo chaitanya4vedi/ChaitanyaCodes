@@ -1,0 +1,55 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Navada"
+theme = "navada"
+paginate=6
+
+[params]
+    description = "My site description"
+    author = "Chaitanya Chaturvedi"
+    authorImage = "https://img.icons8.com/emoji/96/000000/boy-emoji.png"
+    
+    
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+  
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+  
+[[menu.footer]]
+  name = "About"
+  url = "/about"
+
+[[menu.footer]]
+  name = "Privacy Policy"
+  url = "/privacy"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+            
+# Code Highlight
+pygmentsstyle = "Abyss"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+  
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/chaitanya4vedi"
+    pre = "<i class='fab fa-github'></i>"
+
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/chaitanya4vedi"
+    pre = "<i class='fab fa-twitter'></i>"
