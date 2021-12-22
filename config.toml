@@ -11,7 +11,7 @@ pygmentsstyle = "Abyss"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 [params]
-description = "My site description"
+description = "Navada is a color UI theme for blogs"
 author = "Chaitanya Chaturvedi"
 authorImage = "https://img.icons8.com/emoji/96/000000/boy-emoji.png"
 [markup]
@@ -58,5 +58,9 @@ weight = 100
 [[related.indices]]
 name = "date"
 weight = 10
-
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.68.3"
+    max = "0.84.2"
 
