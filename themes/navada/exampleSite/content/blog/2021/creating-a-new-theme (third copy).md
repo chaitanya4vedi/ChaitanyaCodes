@@ -1,6 +1,6 @@
 ---
 title: Creating a New Theme
-author: "Michael Henderson"
+author: "Chaitanya Chaturvedi"
 tags: ["Theme", "Hugo"]
 date: 2014-09-28
 images:

@@ -1,57 +1,23 @@
 ---
 title: "About Me"
-date: 2019-04-26T20:18:54+03:00
-heroimage: /images/mountain.jpg
-herotext: Helping you succeed in life
+date: 2021-04-26T20:18:54+03:00
+heroimage: /images/Boat-1.jpg
+herotext: I am easy to grasp but hard to understand
 layout: about
 ---
 
-# Et ora stamen Phlegon signum te utraque
+<div style="text-align:center">
+<h1>Let me introduce myself</h1>
+<figure style="">
+   <img class="avatar" src="/images/About-Me-Photo-Fair-Crop.png" alt="Chaitanya Chaturvedi" style="width: 50%">
+</figure>
+</div>
 
-## Lege est
+Hi! My name is Chaitanya Chaturvedi. I live in Kolkata, India. I am 21 years old. I am a recent graduate. I studied BCA Hons. from University of Burdwan. Now I am planning to pursue MCA. I aspire to become a software engineer. My areas of interest range from technology, blogging, poetry, story telling to drawing. I have also been a Microsoft learn student ambassador and codecademy chapter leader at my college. I like learning new technologies, developing websites, creating new arts. Although my motivation to learn any technology is to develop something but i just love the process of it. Because while developing or creating something you are faced with several problems and to solve them makes it even more enjoyable. 
+# Always remember - 
 
-Lorem markdownum malum Cupido [cupit obruta](http://www.rapto.com/loqui)
-delectat dictis, prodit, decidit Achilli simul ad tantaque adieci Quae. Tulit
-plura audito, superabat atria hausit ut quibus illi auditur.
+> You are not remembered for the product you create, instead you are remembered for the problems you solved while creating it and by creating it. - Chaitanya Chaturvedi 
 
-## Animal nescius
+# My heart says
 
-Coegi *ubi onus securim*, gemitus **artificem adporrectumque inmenso** meta
-medias, nato mare. Minaxque qualis. Redemit capillos aliquem: frustra spumisque
-gratus **abstemius** quodque ictus aram tellure terra! Infans suum alter
-commentaque omnibus?
-
-1. Per et digitis
-2. Cohaesit seducunt fratribus thalamos carinae
-3. Melior illa tamen poenamque stupuit ponat formaene
-4. Ludit requirit
-5. Tritona spatium sunt
-6. Ceperat Edonidas gratos tota Gargaphie in Hecate
-
-## Quidem adspeximus Naides trabe suoque pulsat fortia
-
-Retia laude [dederat placidi](http://pro.io/), excipit at negat erat, nec
-aequorei, invocat. Qua manet removere aspiciunt tunc dumque rigidum; quos cogor
-ire summam fiducia ripas ambiguum. Relicta est solitis, quibus: **et se** vidit.
-
-## Solebat generi incursu esse Cyanen et capillo
-
-Tophis oravit. Et necem de fertur amoris! Et agnovere torta, an praeceps loqui
-oculosque auxiliaria aliamve saecula.
-
-- Dare nam silvas non amnis est nescio
-- Consulit medio
-- Tua contemptor modo illae inposuit vita Athenas
-- De mens non velut sola Mavortia
-
-## Feroci nuper eripere ut mollia hominumque timeo
-
-Equi *templa caret dea* materiem vicem. Utere tela Minos totidem siquis
-spernitque Augustis erat stratis. Caelo sinu pharetras longius. Metuens saepe;
-et laudat perque tu duo luctatur [tabellae](http://suspicor.org/in-dimovit)
-perfunditur haec crematisregia tamen animas! Ratione somni est par tua lupi ira
-periura, gelidumque acumine pascere morte hoc!
-
-**Urbis neve** nunc, tactusque corpore inque, nec hortatus tres amarunt rexit
-iterum dedere est. Turba Redditus Cerealis adsimulavit latices Ianthe adspicias
-in caelum umero. Duo neque.
+I like to read, to write, to sing, to code, to laugh, to love, to be loved but the most of it i like, is to make people's live simpler and better. I feel the need to bring about the change from the scattered things at the desk to the lives of people in the organization. I assume my self to be a responsible and trustworthy guy being an employee, a boss, an entrepreneur, a family member as much as i feel being a responsible citizen. At times i do cry, i do become sad but instead of crying at somebody's shoulder i look at myself in the mirror and ask - is it worth it? Do these worth the priceless wrinkles and tears? And eventually i come out as even more stronger individual. Although you may not find me as that perfectionist guy. But you see the only thing i strive for when i wake up from the bed <em>is perfection.</em> 
