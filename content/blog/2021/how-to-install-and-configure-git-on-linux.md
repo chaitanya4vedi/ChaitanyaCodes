@@ -2,7 +2,7 @@
 title: "How to Install and Configure Git on Linux" 
 date: 2022-01-11T04:36:33Z 
 description: "This post helps you in setting up and configuring git on you Linux machine. " 
-draft: true 
+draft: false 
 author: "Chaitanya Chaturvedi" 
 tags: "git, install, github, linux" 
 images:  
