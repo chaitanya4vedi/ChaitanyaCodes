@@ -11,8 +11,8 @@ body {
 }
  .logo h1 {
      font-family: 'Bangers';
-     letter-spacing: 0.2em;
-     font-size: 1.3em;
+     letter-spacing: 0.05em;
+     font-size: 1.1em;
      background-color: #d6a3fb;
      color: black;
      padding: 0px 20px;
@@ -38,13 +38,39 @@ body {
      border-radius: 10px;
 }
  .index-header {
-     text-align:center;
-     font-family: 'Bungee Shade';
-     background-color: #bcfd4c;
-     color: #6e6e6e;
-     border-radius: 10px;
-     font-size: 3em;
+  background-color: #fc3153;
+  text-align: center;
+  font-size: 5em;
+  font-family: 'Luckiest Guy';
+  color: #6495ED;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow:  ;
+  border-radius: 20px;
+  text-shadow:   0px -6px 0 #212121,  
+                 0px -6px 0 #212121,
+                 0px  6px 0 #212121,
+                 0px  6px 0 #212121,
+                -6px  0px 0 #212121,  
+                 6px  0px 0 #212121,
+                -6px  0px 0 #212121,
+                 6px  0px 0 #212121,
+                -6px -6px 0 #212121,  
+                 6px -6px 0 #212121,
+                -6px  6px 0 #212121,
+                 6px  6px 0 #212121,
+                -6px  18px 0 #212121,
+                 0px  18px 0 #212121,
+                 6px  18px 0 #212121,
+                 0 19px 1px rgba(0,0,0,.1),
+                 0 0 6px rgba(0,0,0,.1),
+                 0 6px 3px rgba(0,0,0,.3),
+                 0 12px 6px rgba(0,0,0,.2),
+                 0 18px 18px rgba(0,0,0,.25),
+                 0 24px 24px rgba(0,0,0,.2),
+                 0 36px 36px rgba(0,0,0,.15);
 }
+
  .contact-h1 {
      font-family: "Anton";
      background-color: #1a2238;
@@ -116,7 +142,7 @@ body {
      padding: 25px 25px;
      border-radius: 10px;
      font-family: "JetBrains Mono";
-     font-size: 1em;
+     font-size: .95em;
      margin-bottom: 1em;
 }
  .list-content {
@@ -213,3 +239,32 @@ body {
      background-color: floralwhite;
 }
  
+.advert-inline {
+  margin: 6rem 0 4rem 0;
+  padding: 1rem 0 1rem;
+  border-top: dotted 4px #ddd;
+  border-bottom: dotted 4px #ddd;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 1em solid;
+  background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.title-image {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+}
