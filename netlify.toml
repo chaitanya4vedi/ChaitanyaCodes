@@ -1,5 +1,5 @@
 [build]
-  command = "hugo"
+  command = "hugo server -D"
   context = "production"
   publish = "public"
 

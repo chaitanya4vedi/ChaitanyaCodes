@@ -25,7 +25,7 @@ unsafe = true
 name = "About"
 url = "/about"
 [[menu.main]]
-name = "Blog"
+name = "Blogs"
 url = "/blog"
 [[menu.main]]
 name = "Categories"
