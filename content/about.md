@@ -9,14 +9,14 @@ layout: about
 <div style="text-align:center">
 <h1>Let me introduce myself</h1>
 <figure style="">
-   <img class="avatar" src="/images/About-Me-Photo-Fair-Crop.png" alt="Chaitanya Chaturvedi" style="width: 50%">
+   <img class="avatar" src="/images/About-Me-Photo-Fair-Crop.png" alt="Chaitanya Chaturvedi" style="width: 375px">
 </figure>
 </div>
 
 Hi! My name is Chaitanya Chaturvedi. I live in Kolkata, India. I am 21 years old. I am a recent graduate. I studied BCA Hons. from University of Burdwan. Now I am planning to pursue MCA. I aspire to become a software engineer. My areas of interest range from technology, blogging, poetry, story telling to drawing. I have also been a Microsoft learn student ambassador and codecademy chapter leader at my college. I like learning new technologies, developing websites, creating new arts. Although my motivation to learn any technology is to develop something but i just love the process of it. Because while developing or creating something you are faced with several problems and to solve them makes it even more enjoyable. 
 # Always remember - 
 
-> You are not remembered for the product you create, instead you are remembered for the problems you solved while creating it and by creating it. - Chaitanya Chaturvedi 
+> You are not <em>actually</em> remembered for the product you create, instead you are remembered for the problems you solved while creating it and by creating it. - Chaitanya Chaturvedi 
 
 # My heart says
 
