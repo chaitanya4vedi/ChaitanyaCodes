@@ -1,19 +1,22 @@
 
 
-baseURL = "https://navada-hugo.netlify.app/"
+baseURL = "https://chaitanya.codes"
 languageCode = "en-us"
-title = "Navada"
+title = "Chaitanya Codes"
 theme = "navada"
 paginate=6
-googleAnalytics = ""
+googleAnalytics = "UA-216601186-1"
 # Code Highlight
-pygmentsstyle = "Abyss"
+pygmentsstyle = "monkai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 [params]
 description = "Navada is a color UI theme for blogs"
 author = "Chaitanya Chaturvedi"
 authorImage = "https://img.icons8.com/emoji/96/000000/boy-emoji.png"
+[params.adsense]
+client = "ca-pub-6104350685239688"
+inArticleSlot = "4029719702"
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
@@ -34,8 +37,8 @@ url = "/contact"
 name = "About"
 url = "/about"
 [[menu.footer]]
-name = "Privacy Policy"
-url = "/privacy"
+name = "Contact"
+url = "/contact"
 [[menu.social]]
 name = "BuyMeACoffee"
 url = "https://www.buymeacoffee.com/chaitanya4vedi"
