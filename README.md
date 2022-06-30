@@ -15,7 +15,7 @@ A Hugo blog with a unique hugo theme.
 
 | Index Page                                           | Blog Page                                           |
 |------------------------------------------------------|-----------------------------------------------------|
-| <img src="static/ss_index_mobile.jpeg" alt="screenshot" height="400" width="350"/> | <img src="static/ss_blog_mobile.jpeg" alt="screenshot" height="400" width="350"/> |
+| <img src="static/ss_index_mobile.jpeg" alt="screenshot" height="400" width="285"/> | <img src="static/ss_blog_mobile.jpeg" alt="screenshot" height="400" width="285"/> |
 
 
 
