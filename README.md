@@ -15,7 +15,7 @@ A Hugo blog with a unique hugo theme.
 
 | Index Page                                           | Blog Page                                           |
 |------------------------------------------------------|-----------------------------------------------------|
-| <img src="static/ss_index_mobile.jpeg" alt="screenshot" height="400" width="285"/> | <img src="static/ss_blog_mobile.jpeg" alt="screenshot" height="400" width="285"/> |
+| <img src="static/ss_index_mobile.jpeg" alt="screenshot" height="400" width="150"/> | <img src="static/ss_blog_mobile.jpeg" alt="screenshot" height="400" width="150"/> |
 
 
 
@@ -31,7 +31,7 @@ I have provided `config.toml` file inside the `exampleSite` directory together w
 For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.+
 
 ## Writing Posts
-Create a new `.md` file in the *content/blog/2021/* folder
+Create a new `.md` file in the *content/blog/2022/* folder
 or you can simply type this command with your post's title in it
 `hugo new blog/2021/post-title.md`
  or you can also type `hugo new post-title.md` hugo will automatically create posts inside `content/blog` folder.
@@ -82,9 +82,6 @@ I have lots of stuff in my mind to add to this theme. Some of the features i wou
 - Cache busting for CSS
 
 If you think i have missed something or you have an idea or suggestion that you want to add, feel free to raise an issue. I am open to improvements for this theme. I will be more than glad to hear from you or take your help. Thank you!
-
-## Credits
-Thanks to [Janne Kemppainen](https://twitter.com/pakstech) for the wonderful posts on hugo themes.
 
 ----
 
