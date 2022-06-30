@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="hero hero-contact is-light is-medium" {{ with .Params.heroimage }}
+    style="background-size:cover;" {{ end }}>
+    <div class="hero-head">
+        <div class="container">
+            <h1 style="padding-top: 0.8rem;" class="title is-2 has-background-light narrow-background">
+                {{ .Title }}
+            </h1>
+            {{ with .Params.herotext }}
+            <h2 class="title subtitle is-4 has-background-light narrow-background">
+                {{ . }}
+            </h2>
+            {{ end }}
+        </div>
+    </div>
+    <div class="hero-body">
+        <div class="conatiner has-text-centered">
+            <div class="columns">
+                <div class="column ">
+                    
+                </div>
+                <div class="column ">
+                    <img src="https://img.icons8.com/plumpy/96/000000/source-code.png"/>
+                </div>
+                <div class="column ">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-foot">
+        {{ with .Params.buttons }}
+        <nav class="tabs">
+            <div class="container">
+                <ul>
+                    {{ range . }}
+                    <li>
+                        <a class="has-background-light" {{ with .id }}id="{{ . }}" {{ end }}
+                            {{ with .href }}href="{{ . | safeURL }}" {{ end }}>
+                            <span class="icon"><i class="{{ .icon }}" aria-hidden="true"></i></span>
+                            <span>{{ .name }}</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </nav>
+        {{ end }}
+    </div>
+</div>
+<div class="section">
+    <div class="container max-800px">
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+{{ end }}

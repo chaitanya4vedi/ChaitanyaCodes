@@ -1,0 +1,21 @@
+<footer class="footer has-background-light">
+    <div class="container  has-text-centered">
+        <div class="columns has-text-centered">
+            {{ range .Site.Menus.footer }}
+            <div class="column is-narrow">
+                <a class="button is-link" href="{{ .URL }}" class="">{{ .Name }}</a>
+            </div>
+            {{ end }}           
+        </div>
+        <div class="is-narrow">
+            <img src="https://img.icons8.com/material-sharp/24/000000/source-code.png"/>
+        </div>
+        <div class="column is-narrow">
+            <p>&copy;2022 Chaitanya.Codes<br>Powered by Hugo</p>
+        </div>
+        <div class="column is-narrow">
+            <p>Proudly created by <a href="">&nbsp;Chaitanya Chaturvedi</a></p>
+         </div> 
+    </div>
+</div>
+</footer>

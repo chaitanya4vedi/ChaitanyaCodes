@@ -1,0 +1,23 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>{{ if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/tiny-color/64/000000/experimental-code-tiny-color.png">
+    <!-- Bulma CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <!-- jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- FontAwesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.css" />     
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+    <script type="text/javascript" src="{{ "js/script.js" | relURL }}"></script>
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ if not (in (string .Site.BaseURL) "localhost") }}
+    {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
+</head>

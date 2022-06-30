@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="hero hero-about is-dark" {{ with .Params.heroimage }}
+style="background-size:cover;" {{ end }}>
+<div class="hero-body">
+   <div class="container max-800px">
+      <di class="columns has-text-centered">
+         <img src="https://img.icons8.com/material-sharp/52/000000/source-code.png"/>
+      </di>
+      <h1 class="title is-1 has-background-dark  narrow-background">
+         {{ .Title }}
+      </h1>
+      {{ with .Params.herotext }}
+      <h2 class="title subtitle is-4 has-background-dark narrow-background">
+         {{ . }}
+      </h2>
+      {{ end }}
+   </div>
+</div>
+</div>
+<div class="section">
+   <div class="container max-800px">
+      <div class="content">
+         <h1>From the desk of creater</h1>
+         <div class="columns is-vcentered">
+            <div class="column ">
+               <div class="columns is-vcentered is-mobile">
+                  {{ with .Site.Params.authorImage }}
+                  <div class="column is-narrow">
+                     <img src="{{ . }}" class="author-image">
+                  </div>
+                  {{ end }}
+                  <div class="column info-column">
+                     <p>{{ .Site.Params.Author }}</p>
+                     <p><time>{{ .PublishDate.Format "January 2, 2006" }}</time> |
+                        {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         {{ .Content }}
+      </div>
+   </div>
+</div>
+{{ end }}

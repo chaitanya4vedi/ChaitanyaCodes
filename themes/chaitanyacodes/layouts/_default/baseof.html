@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" lang="{{ .Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <main>
+        {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+  <script>
+   window.cookieconsent.initialise({
+    container: document.getElementById("content"),
+    palette:{
+     popup: {background: "#000000"},
+     button: {background: "#aa0000"},
+    },
+    revokable:true,
+    onStatusChange: function(status) {
+     console.log(this.hasConsented() ?
+      'enable cookies' : 'disable cookies');
+    },
+    law: {
+     regionalLaw: false,
+    },
+    location: true,
+   });
+  </script>
+    </body>
+</html>

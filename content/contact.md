@@ -1,35 +1,53 @@
 ---
 title: "Contact us"
 date: 2019-04-29T11:58:46+03:00
-heroimage: /images/Contact.jpg
-id: open-modal
-form: https://forms.gle/YvMkCVo3nu8VAowP9
 layout: contact
+herotext: Helping you succeed in life
 buttons:
 - name: Phone
   icon: fas fa-phone
   href: "tel:555555555"
 - name: Contact form
   icon: fas fa-envelope
-  href: https://forms.gle/YvMkCVo3nu8VAowP9
-map: Kolkata, India
+  id: open-modal
 ---
 
-
-<div class="columns is-multiline is-mobile">
-    <div class="column">
-        <h2 class="title is-4">For suggestions or improvements</h2>
-<p>Feel free to reach out to me for any suggestions or improvements. I love FOSS, so you can always ping for contributions to your project or repository. I will be more than glad to help you with anything</p>
-        <h2 class="title is-4">My areas of expertise include</h2>
-        <p><ul><li>Web Development</li><li>Web Design</li><li>Art</li><li>Solving Technical Problems</li><li>Poetry</li><li>Story Telling</li></ul></p>
-    </div>
-    <div class="column">
-        <h2 class="title is-4">Dont be shy, Lets connect</h2>
-<p>Although I am less active on social media but if You ever feel low or sad, or just want to have a chat, you can always reach out to me here, I am open to any type of discussion.<br> <em>For suggestions, inquiries or anything professional, I prefer you use the contact form above.</em> </p>
-<div style="font-size: 2.5em">
-<a class="fab fa-instagram" href="https://instagram.com/chaitanya4vedi/"></a>
-<a class="fab fa-linkedin" href="https://linkedin.com/in/chaitanya4vedi/"></a>
-<a class="fab fa-twitter" href="https://twitter.com/chaitanya4vedi/"></a>
+We are committed to bring you great content and we keep on improving. We believe it is our utmost responsibility to keep serving you the best but in anycase you find anything objectionable or you have any kind of query, please dont hesitate to reach out to us directly. Thank you!
+<div style="padding-bottom: 1.5rem;" class="container">
+<a class="button is-warning" href="https://docs.google.com/forms/d/e/1FAIpQLSfA9D-bscpGu_2pAKBud4XOoUPPi_roGKpr4_hVsQoXAIsoLg/viewform">
+<p>Conatct</p>
+</a>
 </div>
-    </div>
+
+<div class="columns">
+<div class="column">
+
+# Follow us on
+<a href="https://facebook.com/chaitanya4vedi"><img src="https://img.icons8.com/fluency/72/000000/facebook-new.png"/></a>
+<a href="https://linkedin.com/in/chaitanya4vedi"><img src="https://img.icons8.com/fluency/72/000000/linkedin-circled--v1.png"/></a>
+<a href="https://twitter.com/chaitanya4vedi"><img src="https://img.icons8.com/fluency/72/000000/twitter.png"/></a>
+<a href="https://instagram.com/chaitanya4vedi"><img src="https://img.icons8.com/fluency/72/000000/instagram-new.png"/></a>
+
+# Address
+S.N. Housing Complex, Block D2, Flat - 105
+
+Serampore, Hooghly, P.O. Pravshnagar
+
+Pin - 712249
+
+West Bengal, India
+
+</div>
+<div class="column">
+
+# For Business inquiries
+
+### Email:
+<p>owner@thevasu.com</p>
+
+### Call us at
+<p>+91 6289600415</p>
+
+
+</div>
 </div>

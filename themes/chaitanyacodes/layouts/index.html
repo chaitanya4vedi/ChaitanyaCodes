@@ -1,0 +1,92 @@
+{{ define "main" }}
+<section class="section">
+   <article>
+      <div class="columns is-centered">
+         <div class="column max-800px">
+            <h1 class="title blog-title is-1">{{ .Title }}</h1>
+            <div class="title subtitle heading is-6">
+               <div class="columns is-vcentered">
+                  <div class="column">
+                     <div class="columns is-vcentered is-mobile">
+                        {{ with .Site.Params.authorImage }}
+                        <div class="column is-narrow">
+                           <img src="{{ . }}" class="author-image">
+                        </div>
+                        {{ end }}
+                        <div class="column info-column">
+                           <p>{{ .Site.Params.Author }}</p>
+                           <p><time>{{ .PublishDate.Format "January 2, 2006" }}</time> |
+                              {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="column">
+                     {{ range $idx, $category := .Params.categories }}
+                     {{- if ne $idx 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ $category | urlize }}">{{ $category }}</a>
+                     {{- end }}
+                  </div>
+               </div>
+            </div>
+            {{ with .Params.images }}
+            <figure class="title-image">
+               <img src="{{ index . 0 }}" alt="">
+            </figure>
+            {{ end }}
+            <div class="content">
+               {{ .Content }}
+            </div>
+         </div>
+      </div>
+   
+      <div class="container has-text-centered max-800px">
+         <div class="columns">
+         <div class="column">
+            <h1 style="font-size: large;">If you liked our work then please consider supporting us on <a href="https://buymeacoffee.com/chaitanya4vedi">BuymeACoffee</a></h1>
+            <a href="https://www.buymeacoffee.com/chaitanya4vedi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=chaitanya4vedi&button_colour=BD5FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
+         </div>
+         <div class="column">
+            <h1 style="font-size: large;">Get notified as soon as we post something new? Don't worry, We got you covered!</h1>
+            <a class="button is-danger" style="color: aliceblue; font-family: Abel; font-size: 1.5rem;" href="https://tinyletter.com/chaitanya4vedi">Subscribe to Newsletter!</a>
+         </div>
+         </div>
+       </div>
+       <div class="columns has-text-centered">
+          <div class="column">
+            <img src="https://img.icons8.com/material-sharp/60/000000/source-code.png"/>
+          </div>
+       </div>
+      </article>
+</section>
+<div class="blog__navigate">
+   <div class="blog__navigateButtons">
+      <div class="blog__navigateButtons__previous">  
+         {{ with .PrevInSection }}  
+         <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a>   	           </button>  
+         {{ end }}  
+      </div>
+      <div class="blog__navigateButtons__next">  
+         {{ with .NextInSection }}  
+         <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>  
+         {{ end }}  
+      </div>
+   </div>
+</div>
+<section style="margin-bottom: 30px" class="index-section">
+   <div class="columns is-centered">
+      <div class="column max-800px">
+         <div class="content">
+            <h2>See Also</h2>
+         </div>
+         <div class="columns">
+            {{ $related := (where (.Site.RegularPages.Related .) "Type" "blog") | first 3 }}
+            {{ range $related }}
+            <div class="column is-one-third">
+               {{ partial "widgets/post-card-small.html" . }}
+            </div>
+            {{ end }}
+         </div>
+      </div>
+   </div>
+</section>
+{{ end }}

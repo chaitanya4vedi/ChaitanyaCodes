@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Big+Shoulders+Text&family=Bungee+Inline&family=Bungee+Shade&family=Caveat&family=Faster+One&family=JetBrains+Mono&family=Karla&family=Lato&family=Playfair+Display&family=Qwitcher+Grypen&family=Roboto&family=Sora:wght@400;500&family=Squada+One&family=Square+Peg&family=Staatliches&display=swap');
+
+.logo h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 1.5em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Squada One', cursive;
+    
+}
+
+.btn {
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.signature {
+    font-family: 'Square Peg', cursive;
+    font-size: xx-large;
+}
+
+.card {
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+.img {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar {
+    font-family: 'Squada One', cursive;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;    
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+main {
+    flex: 1;
+}
+
+.max-800px {
+    max-width: 800px;
+}
+
+.author-image {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.title-image {
+    padding-bottom: 2em;
+}
+
+.narrow-background {
+    display: table;
+    padding: 0.1em;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.card {
+    height: 100%;
+}
+
+.footer {
+    
+    background-image: linear-gradient( 106.1deg,  rgba(69,242,143,0.52) 10.2%, rgba(14,228,175,0.61) 83.6% );
+}
+
+.footer a {
+    font-family: 'Squada One', cursive;
+    
+}
+
+.hero-about {
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}
+
+.hero-contact {
+    background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+}

@@ -1,82 +1,81 @@
-
-
-baseURL = "https://chaitanya.codes"
-languageCode = "en-us"
-DefaultContentLanguage = "en"
-title = "Chaitanya Codes"
-theme = "navada"
-paginate=6
-googleAnalytics = "UA-216601186-1"
-
-enableEmoji = true
-enableGitInfo = true
-enableRobotsTXT = true
-canonifyURLs = true
-
-# Code Highlight
-pygmentsstyle = "monkai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+baseURL = 'https://chaitanya.codes/'
+languageCode = 'en-us'
+title = 'Chaitanya.Codes'
+theme = 'chaitanyacodes'
+disqusShortname = 'bluedove-1'
+rssLimit = 20
+copyright = "2022 TheVasu All rights reserved"
+googleAnalytics = ''
 [params]
-sitename = "Chaitanya Codes"
-og_image = "/images/C.jpg"
-description = "Chaitanya Codes is a one shot place for everything technical and related to technology. Here i regularly post stuff related to troubleshoot, technology, tips and tricks. Read all my articles and be updated about latest trends in technology."
-author = "Chaitanya Chaturvedi"
-authorImage = "https://img.icons8.com/emoji/96/000000/boy-emoji.png"
-github = "https://github.com/chaitanya4vedi/"
-facebook = "https://facebook.com/chaitanya4vedi/"
-twitter = "@chaitanya4vedi"
-instagram = "@chaitanya4vedi"
-[params.adsense]
-client = "ca-pub-6104350685239688"
-inArticleSlot = "4029719702"
-[markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-unsafe = true    
-[[menu.main]]
-name = "About"
-url = "/about"
-[[menu.main]]
-name = "Blogs"
-url = "/blog"
-[[menu.main]]
-name = "Categories"
-url = "/categories"
-[[menu.main]]
-name = "Contact"
-url = "/contact"
-[[menu.footer]]
-name = "About"
-url = "/about"
-[[menu.footer]]
-name = "Contact"
-url = "/contact"
-[[menu.social]]
-name = "BuyMeACoffee"
-url = "https://www.buymeacoffee.com/chaitanya4vedi"
-pre = "<i class='fas fa-coffee'></i>"
-[[menu.social]]
-name = "GitHub"
-url = "https://github.com/chaitanya4vedi"
-pre = "<i class='fab fa-github'></i>"
-[[menu.social]]
-name = "Twitter"
-url = "https://twitter.com/chaitanya4vedi"
-pre = "<i class='fab fa-twitter'></i>"
-[related]
-threshold = 0
-includeNewer = true
-toLower = false
-[[related.indices]]
-name = "categories"
-weight = 100
-[[related.indices]]
-name = "date"
-weight = 10
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.55.0"
-    max = "0.84.2"
+    description = ""
+    author = "Chaitanya Chaturvedi"
+	email = "chaitanya4vedi@gmail.com"
+    authorImage = "/images/Chaitanya_Chaturvedi_Cropped.jpg"
 
+paginate = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+   weight = 1
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
+     weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+     weight = 4
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+   weight = 3
+
+[[menu.social]]
+    name = "Facebook"
+    url = "https:/facebook.com/chaitanya4vedi"
+    pre = "<i class='fab fa-facebook'></i>"
+
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/chaitanya4vedi"
+    pre = "<i class='fab fa-twitter'></i>"
+
+[[menu.social]]
+    name = "Instagram"
+    url = "https://instagram.com/chaitanya4vedi"
+    pre = "<i class='fab fa-instagram'></i>"
+
+[related]
+    threshold = 0 
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+[[menu.footer]]
+  name = "About"
+  url = "/about"
+
+[[menu.footer]]
+  name = "Privacy"
+  url = "/privacy"
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
