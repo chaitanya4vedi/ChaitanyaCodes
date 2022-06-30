@@ -9,13 +9,13 @@ A Hugo blog with a unique hugo theme.
 
 | Index Page                                            | Blog Page                                            |
 |-------------------------------------------------------|------------------------------------------------------|
-| ![Navada Theme Desktop View](static/ss_index_laptop.jpeg) | ![Navada Theme Desktop View](static/ss_blog_laptop.jpeg) |
+| <img src="static/ss_index_laptop.jpeg" alt="screenshot" height="100"/> | <img src="static/ss_blog_laptop.jpeg" alt="screenshot" height="100"/> |
 
 ### Mobile View
 
 | Index Page                                           | Blog Page                                           |
 |------------------------------------------------------|-----------------------------------------------------|
-| ![Navada Theme Mobile View](static/ss_index_mobile.jpeg) | ![Navada Theme Mobile View](static/ss_blog_mobile.jpeg) |
+| <img src="static/ss_index_mobile.jpeg" alt="screenshot" height="100"/> | <img src="static/ss_blog_mobile.jpeg" alt="screenshot" height="100"/> |
 
 
 
