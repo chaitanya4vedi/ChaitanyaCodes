@@ -1,7 +1,7 @@
-# Navada - Hugo theme
-Navada is a fully responsive, colorful and attractive UI theme for Blogs and similar content.
+# Chaitanya.Codes - A Technology Blog 
+A Hugo blog with a unique hugo theme. 
 
-## Check the [Demo](https://navada-hugo.netlify.app/)
+## Check the [Demo](https://chaitanyacodes1.netlify.app/)
 
 ### Screenshots on Download page
 
@@ -9,17 +9,16 @@ Navada is a fully responsive, colorful and attractive UI theme for Blogs and sim
 
 | Index Page                                            | Blog Page                                            |
 |-------------------------------------------------------|------------------------------------------------------|
-| ![Navada Theme Desktop View](images/Screenshot-Index-Full.png) | ![Navada Theme Desktop View](images/Screenshot-Blog-Half.png) |
+| ![Navada Theme Desktop View](static/ss_index_laptop.jpeg) | ![Navada Theme Desktop View](static/ss_blog_laptop.jpeg) |
 
 ### Mobile View
 
 | Index Page                                           | Blog Page                                           |
 |------------------------------------------------------|-----------------------------------------------------|
-| ![Navada Theme Mobile View](images/Mobile-Index.jpg) | ![Navada Theme Mobile View](images/Mobile-Blog.jpg) |
+| ![Navada Theme Mobile View](static/ss_index_mobile.jpeg) | ![Navada Theme Mobile View](static/ss_blog_mobile.jpeg) |
 
 
-#### Footer
-<img src="images/Screenshot-Blog-Footer.png" alt="Footer">
+
 
 ## Installation
 In your Hugo website directory, go to themes folder by `$ cd themes` command. Then clone this repo with the `git clone` command.
