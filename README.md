@@ -9,13 +9,13 @@ A Hugo blog with a unique hugo theme.
 
 | Index Page                                            | Blog Page                                            |
 |-------------------------------------------------------|------------------------------------------------------|
-| <img src="static/ss_index_laptop.jpeg" alt="screenshot" height="100"/> | <img src="static/ss_blog_laptop.jpeg" alt="screenshot" height="100"/> |
+| <img src="static/ss_index_laptop.jpeg" alt="screenshot" height="350"/> | <img src="static/ss_blog_laptop.jpeg" alt="screenshot" height="350"/> |
 
 ### Mobile View
 
 | Index Page                                           | Blog Page                                           |
 |------------------------------------------------------|-----------------------------------------------------|
-| <img src="static/ss_index_mobile.jpeg" alt="screenshot" height="100"/> | <img src="static/ss_blog_mobile.jpeg" alt="screenshot" height="100"/> |
+| <img src="static/ss_index_mobile.jpeg" alt="screenshot" height="350"/> | <img src="static/ss_blog_mobile.jpeg" alt="screenshot" height="350"/> |
 
 
 
